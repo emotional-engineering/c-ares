@@ -94,7 +94,7 @@ int ares_change_servers(ares_channel channel, struct ares_addr_node* source_serv
 
 /*
 *   Close old servers if they finish all queries.
-*   Must be called at the end of ares process pool if ares_change_servers used.
+*   Must be called at the end of ares process pool, if ares_change_servers used.
 */
 
 int ares_close_old_servers(ares_channel channel)
