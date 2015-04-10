@@ -46,7 +46,8 @@ CSOURCES = ares__close_sockets.c	\
   bitncmp.c				\
   inet_net_pton.c			\
   inet_ntop.c				\
-  windows_port.c
+  windows_port.c        \
+  ares_change_servers.c
 
 HHEADERS = ares.h			\
   ares_build.h				\
